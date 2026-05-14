@@ -1,0 +1,10 @@
+{
+  "name": "tesla-gov-contract",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cargo build --target wasm32-unknown-unknown --release",
+    "test": "cargo test",
+    "lint": "cargo clippy && cargo fmt --check"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "proposals": [
+    {
+      "id": "1",
+      "creator": "GBX...ABCD",
+      "title": "Allocate 50,000 XLM for Marketing",
+      "description": "This proposal requests 50,000 XLM from the treasury to fund the Q3 marketing campaign.",
+      "yes_votes": 125,
+      "no_votes": 12,
+      "deadline": 1720000000,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "creator": "GCY...WXYZ",
+      "title": "Upgrade Smart Contract to v2",
+      "description": "Deploy the audited v2 smart contract which includes the token-weighted voting feature.",
+      "yes_votes": 40,
+      "no_votes": 85,
+      "deadline": 1710000000,
+      "status": "closed"
+    }
+  ]
+}
