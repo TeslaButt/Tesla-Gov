@@ -7,7 +7,7 @@ import { TransactionBuilder, Networks, xdr } from '@stellar/stellar-sdk';
  */
 export function decodeTransactionXdr(base64Xdr: string) {
   try {
-    const tx = new xdr.TransactionEnvelope(Buffer.from(base64Xdr, 'base64'));
+    const tx = xdr.TransactionEnvelope.fromXDR(base64Xdr, 'base64');
     return tx;
   } catch (error) {
     console.error('Failed to decode XDR:', error);
